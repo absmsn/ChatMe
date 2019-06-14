@@ -1,0 +1,27 @@
+.centered-container {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.text-overflow-truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+.disable-text-select {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  -ms-user-select: none;
+}
+.disable-select-area{
+  pointer-events: none;
+  opacity: 0.8;
+}
+.emoji-display{
+  font-family: twemoji mozilla,apple color emoji,segoe ui emoji,noto color emoji,android emoji,emojisymbols,emojione mozilla,segoe ui symbol
+}
